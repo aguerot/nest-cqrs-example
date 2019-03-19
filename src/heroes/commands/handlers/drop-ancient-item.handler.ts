@@ -1,7 +1,7 @@
 import { CommandHandler, EventPublisher, ICommandHandler } from '@nestjs/cqrs';
 import * as clc from 'cli-color';
 import { HeroRepository } from '../../repository/hero.repository';
-import { DropAncientItemCommand } from '../impl/drop-ancient-item.command';
+import { DropAncientItemCommand } from '..';
 
 @CommandHandler(DropAncientItemCommand)
 export class DropAncientItemHandler

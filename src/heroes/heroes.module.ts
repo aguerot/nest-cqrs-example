@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { CqrsModule } from '@nestjs/cqrs';
-import { CommandHandlers } from './commands/handlers';
+import { CommandHandlers } from './commands';
 import { EventHandlers } from './events/handlers';
 import { HeroesGameController } from './heroes.controller';
 import { HeroesGameService } from './heroes.service';
